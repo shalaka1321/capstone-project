@@ -40,16 +40,14 @@ flowchart TD
     C2 --> D
     C3 --> D
     D --> E[📉 Visualization with Matplotlib]
-
-    subgraph Features Extracted
+    subgraph Features_Extracted
         B1[Occupancy Ratio]
         B2[Queue Length]
         B3[Traffic Level]
         B4[Special Day Indicator]
         B5[Vehicle Type Weight]
-        B6[Competitor Prices (Simulated)]
+        B6[Competitor Prices Simulated]
     end
-
     A --> B1
     A --> B2
     A --> B3
